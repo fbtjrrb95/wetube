@@ -51,6 +51,7 @@ app.use(morgan("dev"));
 // app.get("/profile", handleProfile);
 
 
+//pug가 route 객체에 접근할 수 있게 해준다. 
 app.use(localsMiddleware);
 
 app.use(routes.home,globalRouter); 
