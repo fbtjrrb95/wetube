@@ -1,3 +1,4 @@
+
 import routes from "../routes";
 
 export const getJoin = (req, res)=> {
